@@ -1,0 +1,33 @@
+// Header SCSS
+
+#header {
+
+    nav {
+    
+    	float: right;
+
+    	ul {
+    		list-style-type: none;
+		    margin: 0 45px 15px 0;
+		    padding: 0;
+		    overflow: hidden;
+    	}
+
+    	li {
+    		float: right;
+    	}
+
+    	a {
+    		display: block;
+    		color: $font-color;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+    	}
+
+    	a:hover {
+    		background-color: $hover-color;
+    	}	
+    	
+	}
+}// #header

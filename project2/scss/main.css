@@ -1,0 +1,78 @@
+#header nav {
+  float: right; }
+  #header nav ul {
+    list-style-type: none;
+    margin: 0 45px 15px 0;
+    padding: 0;
+    overflow: hidden; }
+  #header nav li {
+    float: right; }
+  #header nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  #header nav a:hover {
+    background-color: #111; }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #045B75; }
+
+#home-page h1, #home-page h2 {
+  margin: 15px 0 15px 45px;
+  color: #ffa500; }
+#home-page h2 {
+  margin-bottom: 1em;
+  margin-top: 1em; }
+#home-page img {
+  margin: auto;
+  display: block;
+  width: 93.22917%; }
+#home-page p {
+  margin: 10px 45px 0 45px;
+  color: #fff; }
+#home-page .thumb1, #home-page .thumb2, #home-page .thumb3, #home-page .thumb4 {
+  width: 18.75%;
+  float: left;
+  padding: 1em;
+  margin: 0 20px 0 20px;
+  content: url(../img/tire.png);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; }
+#home-page .thumb2 {
+  content: url(../img/helmet.png); }
+#home-page .thumb3 {
+  content: url(../img/gloves.png); }
+#home-page .thumb4 {
+  content: url(../img/tools.png); }
+#home-page .col1, #home-page .col2 {
+  width: 50%;
+  float: left; }
+#home-page .col2 {
+  float: right; }
+
+#footer nav {
+  margin: 0 auto;
+  width: 28.125%; }
+  #footer nav ul {
+    list-style-type: none;
+    margin: 45px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block; }
+  #footer nav li {
+    float: right; }
+  #footer nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  #footer nav a:hover {
+    background-color: #111; }
+
+/*# sourceMappingURL=main.css.map */

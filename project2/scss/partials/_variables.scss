@@ -1,0 +1,14 @@
+// Variables
+
+$the-font: Arial, sans-serif;
+$main-color: #045B75;
+$secondary-color: #ffa500;
+$font-color: #fff;
+$hover-color: #111;
+
+@mixin thumb-border($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}

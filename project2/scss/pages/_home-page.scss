@@ -1,0 +1,97 @@
+body {
+	font-family: $the-font;
+	background-color: $main-color;
+}
+
+#home-page {
+
+	h1 {
+		margin: 15px 0 15px 45px;
+		color: $secondary-color;
+	}
+
+	h2 {
+		@extend h1;
+		margin-bottom: 1em;
+		margin-top: 1em;
+	}
+
+	img {
+		margin: auto;
+		display: block;
+		width: 895 / 960 * 100%;
+	}
+
+	p {
+		margin: 10px 45px 0 45px;
+		color: $font-color;
+	}
+
+	.thumb1 {
+		width: 3 / 12 * 75%;
+		float: left;
+		padding: 1em;
+		margin: 0 20px 0 20px;
+		content: url(../img/tire.png);
+		@include thumb-border(50%);
+	}
+
+	.thumb2 {
+		@extend .thumb1;
+		content: url(../img/helmet.png);
+	}
+
+	.thumb3 {
+		@extend .thumb1;
+		content: url(../img/gloves.png);
+	}
+
+	.thumb4 {
+		@extend .thumb1;
+		content: url(../img/tools.png);
+	}
+
+	.col1 {
+		width: 6 / 12 * 100%;
+		float: left;
+	}
+
+	.col2 {
+		@extend .col1;
+		float: right;
+	}
+}
+
+#footer {
+	
+    nav {
+
+    	margin: 0 auto;
+    	width: 270 / 960 * 100%;
+
+    	ul {
+    		list-style-type: none;
+		    margin: 45px 0 0 0;
+		    padding: 0;
+		    overflow: hidden;
+		    display: inline-block;
+    	}
+
+    	li {
+    		float: right;
+    	}
+
+    	a {
+    		display: block;
+    		color: $font-color;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+    	}
+
+    	a:hover {
+    		background-color: $hover-color;
+    	}	
+    	
+	}
+}
